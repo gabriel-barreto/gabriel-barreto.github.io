@@ -1,0 +1,1 @@
+function anchorScroll(targetId){$("html, body, document").animate({scrollTop:$("#"+targetId).offset().top-50},750),"true"==$("#navbar-wrapper").attr("data-expanded")&&navbarAnimate(0)}$("[data-action=anchor]").on("click",function(e){var attrs=e.target.attributes;for(i=0;i<attrs.length;i+=1)if("data-target"==attrs[i].nodeName){anchorScroll(attrs[i].nodeValue);break}});

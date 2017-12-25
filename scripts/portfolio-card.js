@@ -1,0 +1,1 @@
+$(".project-bg").on("click",function(e){$("[data-project="+e.target.id+"]").fadeIn(),$("#"+e.target.id).fadeOut()}),$(".project-info-close").on("click",function(e){var targetId=e.target.attributes[1].nodeValue;$("[data-project="+targetId+"]").fadeOut(),$("#"+targetId).fadeIn()});
