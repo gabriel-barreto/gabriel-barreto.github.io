@@ -1,1 +1,0 @@
-$(function(){$(document).bind("scroll",function(e){$(document).scrollTop()>1?$("#navbar-wrapper").removeClass():$("#navbar-wrapper").addClass("docked")})});

@@ -1,1 +1,0 @@
-$(function(){for(i=0;i<12;i+=1)$("[data-bar-id="+i+"]").animate({width:$("[data-bar-id="+i+"]").attr("data-percent")+"%"},500)});
